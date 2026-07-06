@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Track tax-deductible business expenses for tattoo artists and piercing studios. Log costs by category, see running totals, and export a CSV for your accountant.">
+  <title>Tattoo Artist Tax Deduction Tracker | Poli International</title>
+  <link rel="stylesheet" href="/tools/tax-deduction-tracker/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">🧾 Tax Tracker</div>
+    <h1>Tattoo Artist Tax Deduction Tracker</h1>
+    <p>Log business expenses by category and track your deductible total for the tax year. Export a CSV for your accountant. Nothing leaves your browser.</p>
+  </header>
+
+  <!-- Tax year summary -->
+  <div id="summary-row" class="summary-row" style="display:none">
+    <div class="summary-card">
+      <div class="summary-label">Total Deductions</div>
+      <div id="total-deductions" class="summary-value">£0</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-label">Entries Logged</div>
+      <div id="entry-count" class="summary-value">0</div>
+    </div>
+    <div class="summary-card summary-card--wide">
+      <div class="summary-label">Top Category</div>
+      <div id="top-category" class="summary-value">—</div>
+    </div>
+  </div>
+
+  <div class="add-card">
+    <h2 class="add-title">Log Expense</h2>
+    <div class="form-grid">
+      <div class="form-field">
+        <label for="expense-date">Date</label>
+        <input type="date" id="expense-date" class="input-field">
+      </div>
+      <div class="form-field">
+        <label for="expense-category">Category</label>
+        <select id="expense-category" class="input-field">
+          <option value="">Select…</option>
+          <option value="Equipment & Machines">Equipment &amp; Machines</option>
+          <option value="Supplies (inks, needles, gloves)">Supplies (inks, needles, gloves)</option>
+          <option value="Studio / Booth Rent">Studio / Booth Rent</option>
+          <option value="Apprenticeship / Training">Apprenticeship / Training</option>
+          <option value="Professional Membership">Professional Membership</option>
+          <option value="Marketing & Advertising">Marketing &amp; Advertising</option>
+          <option value="Software & Subscriptions">Software &amp; Subscriptions</option>
+          <option value="Travel (studio-related)">Travel (studio-related)</option>
+          <option value="Insurance">Insurance</option>
+          <option value="Sterilisation & PPE">Sterilisation &amp; PPE</option>
+          <option value="Photography & Promotion">Photography &amp; Promotion</option>
+          <option value="Other business expense">Other business expense</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label for="expense-amount">Amount (£)</label>
+        <input type="number" id="expense-amount" class="input-field" placeholder="e.g. 45.00" min="0" step="0.01">
+      </div>
+      <div class="form-field">
+        <label for="expense-supplier">Supplier <span class="opt-label">optional</span></label>
+        <input type="text" id="expense-supplier" class="input-field" placeholder="e.g. Inkjecta, Amazon">
+      </div>
+      <div class="form-field form-field--wide">
+        <label for="expense-desc">Description <span class="opt-label">optional</span></label>
+        <input type="text" id="expense-desc" class="input-field" placeholder="e.g. FK Irons Spektra Edge II rotary machine">
+      </div>
+    </div>
+    <button id="add-btn" class="add-btn">Add Expense</button>
+  </div>
+
+  <!-- Category breakdown -->
+  <div id="breakdown-wrap" style="display:none">
+    <h2 class="section-title">By Category</h2>
+    <div id="category-breakdown" class="category-breakdown"></div>
+  </div>
+
+  <div class="log-controls">
+    <div id="log-count" class="log-count"></div>
+    <div class="log-actions">
+      <button id="export-btn" class="ctrl-btn">Export CSV</button>
+      <button id="clear-btn" class="ctrl-btn ctrl-btn--danger">Clear All</button>
+    </div>
+  </div>
+
+  <div id="expenses-wrap">
+    <div id="empty-state" class="empty-state">No expenses logged yet. Add your first deductible expense above.</div>
+    <table id="expenses-table" class="log-table" style="display:none">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Amount</th>
+          <th>Supplier</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="expenses-body"></tbody>
+    </table>
+  </div>
+
+  <div class="disclaimer">
+    <strong>Note:</strong> This tool tracks expenses for your own records. Tax deductibility depends on your jurisdiction, business structure, and accountant's advice — consult a qualified tax professional before filing.
+  </div>
+
+</div>
+<script src="/tools/tax-deduction-tracker/js/app.js"></script>
+</body>
+</html>
