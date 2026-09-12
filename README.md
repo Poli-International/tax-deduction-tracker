@@ -1,68 +1,66 @@
-# Tattoo Artist Tax Deduction Tracker
+# Tattoo Artist Tax Deduction Tracker (V2)
 
-> **Log and categorise tax-deductible business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.**
+> **Record business expenses through the year in categories an accountant recognises. Fast line-item entry, receipt tracking references, travel logs, printable year summaries, and customisable categories.**
 
 [![License](https://img.shields.io/github/license/Poli-International/tax-deduction-tracker)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/Poli-International/tax-deduction-tracker)](https://github.com/Poli-International/tax-deduction-tracker/commits/main)
 [![GitHub Stars](https://img.shields.io/github/stars/Poli-International/tax-deduction-tracker?style=social)](https://github.com/Poli-International/tax-deduction-tracker/stargazers)
 
-**Live Demo:** [https://poliinternational.com/tools/tax-deduction-tracker/](https://poliinternational.com/tools/tax-deduction-tracker/)
+**Live Tool:** [https://poliinternational.com/tools/tax-deduction-tracker/](https://poliinternational.com/tools/tax-deduction-tracker/)
 
 ---
 
 ## 🎯 Overview
 
-Log and categorise tax-deductible business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.
+The **Tattoo Artist Tax Deduction Tracker (V2)** is a free, open-source record-keeping utility designed specifically for tattoo artists, body piercers, and studio owners. It simplifies recording day-to-day studio operating costs and travel expenses so you have an organised, accountant-ready breakdown at tax time.
 
-**Category:** Studio Operations
-
-This is a free, open-source widget from the [Poli International Widget Suite](https://poliinternational.com/tools/) - a collection of practical tools for tattoo and piercing studios, artists, and clients. It runs entirely in the browser; no data is sent to a server.
-
----
-
-## ✨ Features
-
-- ✅ **Tattoo Artist Tax Deductions**
-- ✅ **Self-Employed Tattoo Expenses**
-- ✅ **Piercing Studio Business Expenses**
-- ✅ **HMRC Self-Assessment Tattoo**
-- ✅ **Tattoo Artist Tax Return**
-- ✅ **Body Art Business Tax**
-- ✅ **Responsive Design** - works on desktop, tablet, and mobile.
-- ✅ **Free & Open Source** - MIT licensed.
+**Category:** Studio Operations  
+**Architecture:** 100% client-side HTML5, CSS3, and vanilla JavaScript. All records remain in your browser (`localStorage`); no data is ever transmitted to remote servers.
 
 ---
 
-## 🎬 Demo
+## ✨ V2 Key Features
 
-### Try It Live
-
-**👉 [Use the tool now](https://poliinternational.com/tools/tax-deduction-tracker/)**
+1. **Fast Running Expense Log**: Add line-item expenses in seconds with date, category, amount, supplier, notes, and receipt references. Export full ledgers to CSV.
+2. **Receipt Reference Tracking**: Record where physical or digital receipts are stored (e.g. envelope number, binder month, email subject) without bulky document stores or photo uploads.
+3. **Annual Summary by Category**: Clean aggregated category breakdown with entry counts, total amounts, and percentage shares, formatted for an accountant. Includes an inline SVG vector diagram.
+4. **Accountant-Ready Printing**: Dedicated print stylesheet (`window.print()`) outputting an official, clean annual expense summary report.
+5. **Mileage & Travel Logging**: Record business travel, convention trips, guest spot transit, distance, rate per unit, and tolls/parking with real-time total calculation.
+6. **Category Editor**: Customise expense categories to match your local accounting practices and business needs. Add, rename, delete, or reset categories.
+7. **Multi-Currency Support**: Choose your working currency (£, $, €, CHF, kr, ¥) with instant global ledger reformatting.
+8. **Tax Year Filtering**: Filter your dashboard and ledger by tax/calendar year or view all years combined.
+9. **Instant Search**: Filter running ledger rows in real time by supplier, description, category, or receipt reference note.
 
 ---
 
-## 🚀 Installation
+## ⚠️ Record-Keeping Notice
+
+This application is strictly an administrative record-keeping tool for tracking business expenses for your accountant. It does not provide tax, legal, or financial advice, nor does it determine or verify deductibility. Tax regulations differ widely by country, region, and business entity. Always consult a qualified professional tax advisor or accountant before filing.
+
+---
+
+## 🔗 Related Studio Operational Tools
+
+- **[Booth Rent Calculator](https://poliinternational.com/booth-rent-calculator/)**: Evaluate fixed chair rent agreements against percentage commission splits.
+- **[Equipment ROI Calculator](https://poliinternational.com/equipment-roi-calculator/)**: Calculate payback periods and return on investment for tattoo machines and sterilisation autoclaves.
+- **[Studio Pricing Benchmark](https://poliinternational.com/studio-pricing-benchmark/)**: Benchmark hourly studio rates, piercing fees, and minimum shop charges.
+
+---
+
+## 🚀 Installation & Usage
 
 ### Option 1: Use Online (Recommended)
-
-No installation needed! Just visit:
+Visit the live tool directly:  
 **[https://poliinternational.com/tools/tax-deduction-tracker/](https://poliinternational.com/tools/tax-deduction-tracker/)**
 
 ### Option 2: Run Locally
-
-This tool is pure HTML/CSS/JS - no build step. Clone the repo and open `index.html`:
+The application is pure, dependency-free client-side code:
 
 ```bash
 git clone https://github.com/Poli-International/tax-deduction-tracker.git
 cd tax-deduction-tracker
-# open index.html in your browser
+# Open index.html directly in any modern web browser
 ```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ---
 
@@ -72,18 +70,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 💬 Support
-
-### Get Help
-
-- 📧 **Email**: <support@poliinternational.com>
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Poli-International/tax-deduction-tracker/issues)
-
----
-
 <div align="center">
 
-**Made with ❤️ by [Poli International](https://poliinternational.com)**
+**Published by [Poli International](https://poliinternational.com)**  
+*Free tools for tattoo artists, piercers, and studio owners.*
 
 [Website](https://poliinternational.com) • [Tools](https://poliinternational.com/tools/) • [GitHub](https://github.com/Poli-International)
 
