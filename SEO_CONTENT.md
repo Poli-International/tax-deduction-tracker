@@ -8,7 +8,7 @@ tattoo artist tax deduction tracker
 ### Long-Tail Keywords
 1. self-employed tattoo artist expenses log
 2. piercing studio business expense tracker
-3. HMRC self-assessment tattoo artist deductions
+3. tax return tattoo artist deductions
 4. tattoo artist tax deductible supplies list
 5. body art business expense categories
 6. tattoo studio booth rent tax deduction
@@ -30,7 +30,7 @@ Tattoo Artist Tax Deduction Tracker, Business Expense Log
 ## Meta Description
 
 ```html
-Log and categorise tax-deductible business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.
+Log and categorise business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.
 ```
 
 ## Content Outline
@@ -41,7 +41,7 @@ Log and categorise tax-deductible business expenses for tattoo artists and pierc
 - Free browser-based tool for logging tattoo and piercing business expenses
 - No data leaves your device, all entries stored in local storage
 - Categorise expenses into 12 predefined categories relevant to body art professionals
-- Export complete expense log as CSV file for accountant or HMRC self-assessment
+- Export complete expense log as CSV file for accountant or tax return
 
 #### H2: Who Should Use This Tool
 - Self-employed tattoo artists managing their own tax returns
@@ -91,7 +91,7 @@ Log and categorise tax-deductible business expenses for tattoo artists and pierc
 6. Click "Add Expense" button
 
 ##### H3: Step 2, Review Your Summary
-- Total Deductions card shows running total of all logged expenses
+- Total Recorded Expenses card shows running total of all logged expenses
 - Entries Logged card shows count of individual expenses
 - Top Category card identifies your highest spending category
 
@@ -146,7 +146,7 @@ The tool includes 12 categories: Equipment & Machines, Supplies (inks, needles, 
 ### Q4: Can I add custom categories?
 No. The tool uses a fixed set of 12 categories designed for tattoo and piercing business expenses. Use "Other business expense" for items that don't fit elsewhere.
 
-### Q5: Is this tool approved by HMRC?
+### Q5: Is this tool approved by tax authority?
 No. This is a record-keeping tool only. Tax deductibility depends on your jurisdiction, business structure, and specific circumstances. Always consult a qualified tax professional.
 
 ### Q6: How do I delete a single expense?
@@ -171,7 +171,7 @@ No. The tool stores all entries in your browser's localStorage, which has a gene
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
   "name": "Tattoo Artist Tax Deduction Tracker",
-  "description": "Log and categorise tax-deductible business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.",
+  "description": "Log and categorise business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.",
   "applicationCategory": "BusinessApplication",
   "operatingSystem": "All",
   "browserRequirements": "Requires JavaScript",
@@ -223,7 +223,7 @@ No. The tool stores all entries in your browser's localStorage, which has a gene
     },
     {
       "@type": "Question",
-      "name": "Is this tool approved by HMRC?",
+      "name": "Is this tool approved by tax authority?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "No. This is a record-keeping tool only. Tax deductibility depends on your jurisdiction, business structure, and specific circumstances. Always consult a qualified tax professional."
@@ -268,7 +268,7 @@ No. The tool stores all entries in your browser's localStorage, which has a gene
 
 ### Blog Post Ideas
 - "10 Tax Deductible Expenses Every Tattoo Artist Forgets"
-- "How to Prepare Your Tattoo Business for HMRC Self-Assessment"
+- "How to Prepare Your Tattoo Business for tax return"
 - "Tattoo Apprentice Tax Guide: What You Can and Can't Claim"
 - "Digital Record Keeping for Tattoo Artists: Why Spreadsheets Aren't Enough"
 
