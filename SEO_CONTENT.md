@@ -2,276 +2,415 @@
 
 ## Target Keywords
 
-### Primary Keyword
-tattoo artist tax deduction tracker
+**Primary keyword:** tattoo artist tax deduction tracker
 
-### Long-Tail Keywords
-1. self-employed tattoo artist expenses log
-2. piercing studio business expense tracker
-3. tax return tattoo artist deductions
-4. tattoo artist tax deductible supplies list
-5. body art business expense categories
-6. tattoo studio booth rent tax deduction
-7. tattoo artist equipment tax write-offs
-8. free tattoo business expense CSV export
-9. tattoo artist sterilisation PPE tax deduction
-10. tattoo apprenticeship training cost tax deductible
-11. tattoo artist marketing expenses tracker
-12. piercing studio insurance tax deduction
-13. tattoo artist software subscription tax write-off
-14. tattoo artist travel expenses studio related
+**Long-tail keywords:**
+
+1. self-employed tattoo artist expense tracker
+2. tattoo artist tax deductions list UK
+3. piercing studio business expenses log
+4. HMRC self-assessment tattoo artist records
+5. tattoo artist mileage log template
+6. body piercer expense categories for accountant
+7. tattoo studio receipt reference tracking
+8. free expense tracker for tattoo artists
+9. tattoo artist tax return CSV export
+10. booth rent and supplies expense categories tattoo
+11. travel and mileage deduction log for tattoo artists
+12. how to record tattoo business expenses for accountant
+13. tattoo artist tax year summary by category
+14. body art business expense categories customisable
+15. self-employed tattoo expenses spreadsheet alternative
+
+---
 
 ## Meta Title
 
-```html
-Tattoo Artist Tax Deduction Tracker, Business Expense Log
+```
+Tattoo Artist Tax Deductions: Expense Tracker & CSV Export
 ```
 
 ## Meta Description
 
-```html
-Log and categorise business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.
 ```
+Track tattoo artist tax deductions and tattooist expenses as you spend: receipt refs, mileage, categories, year summary and CSV export for your accountant.
+```
+
+---
+
+## H1
+
+# Tattoo Artist Tax Deduction Tracker
 
 ## Content Outline
 
-### H1: Tattoo Artist Tax Deduction Tracker, Free Business Expense Log
+### H2: What is the Tattoo Artist Tax Deduction Tracker?
+- H3: A record-keeping tool, not tax advice
+- H3: Everything stays in your browser
 
-#### H2: What is the Tattoo Artist Tax Deduction Tracker?
-- Free browser-based tool for logging tattoo and piercing business expenses
-- No data leaves your device, all entries stored in local storage
-- Categorise expenses into 12 predefined categories relevant to body art professionals
-- Export complete expense log as CSV file for accountant or tax return
+### H2: Who Should Use This Tool
+- H3: Self-employed tattoo artists
+- H3: Body piercers
+- H3: Studio owners and booth renters
 
-#### H2: Who Should Use This Tool
-- Self-employed tattoo artists managing their own tax returns
-- Piercing studio owners tracking business overheads
-- Tattoo apprentices logging training and equipment costs
-- Freelance body artists working across multiple studios
-- Studio managers consolidating expense records
+### H2: How to Use the Tattoo Artist Tax Deduction Tracker
+- H3: Step 1 - Set your tax year, currency, and language
+- H3: Step 2 - Log a standard expense
+- H3: Step 3 - Log travel and mileage
+- H3: Step 4 - Review the annual summary cards
+- H3: Step 5 - Read the annual category summary and chart
+- H3: Step 6 - Search and manage the running expense log
+- H3: Step 7 - Customise your expense categories
+- H3: Step 8 - Export CSV or print for your accountant
 
-#### H2: Key Features (from the tool's code)
+### H2: Fields and Outputs Explained
+- H3: Standard expense fields
+- H3: Travel and mileage fields
+- H3: Summary cards
+- H3: Annual category summary table and SVG chart
+- H3: CSV exports
 
-##### H3: Expense Logging Form
-- Date picker (defaults to today's date)
-- Category dropdown with 12 tattoo/piercing-specific options
-- Amount field (£, supports decimals)
-- Optional supplier and description fields
+### H2: Use-Case Examples
+- H3: Example 1 - A self-employed artist logging monthly supplies
+- H3: Example 2: A guest spot trip with mileage and parking
+- H3: Example 3: A piercer preparing a year-end summary for an accountant
 
-##### H3: Category Breakdown
-- 12 predefined categories including Equipment & Machines, Supplies, Studio/Booth Rent, Apprenticeship/Training, Professional Membership, Marketing & Advertising, Software & Subscriptions, Travel, Insurance, Sterilisation & PPE, Photography & Promotion, Other business expense
+### H2: Frequently Asked Questions (FAQ)
 
-##### H3: Summary Dashboard
-- Total deductions calculated in real-time
-- Entry count display
-- Top category identification with amount
+### H2: Structured Data
 
-##### H3: Visual Category Breakdown
-- Bar chart representation showing proportional spending by category
-- Sorted highest to lowest amount
+### H2: Internal Linking Suggestions
 
-##### H3: Expense Log Table
-- Reverse chronological listing of all entries
-- Columns: Date, Category, Amount, Supplier, Description
-- Individual delete buttons for each entry
+---
 
-##### H3: Data Management
-- Export CSV button generates downloadable tax-deductions.csv file
-- Clear All button removes all records with confirmation
-- All data persists in browser localStorage
+## What is Tattoo Artist Tax Deduction Tracker?
 
-#### H2: How to Use the Tattoo Artist Tax Deduction Tracker
+The Tattoo Artist Tax Deduction Tracker is a free, client-side web tool published by Poli International for tattoo artists, body piercers, and studio owners. It lets you record business expenses throughout the year in categories your accountant recognises, then produces an annual summary, a category breakdown, and CSV exports you can hand over at filing time.
 
-##### H3: Step 1, Log an Expense
-1. Date field automatically shows today's date, adjust if needed
-2. Select a category from the dropdown (12 options available)
-3. Enter the expense amount in pounds (e.g., 45.00)
-4. Optionally add supplier name (e.g., Inkjecta, Amazon)
-5. Optionally add description (e.g., FK Irons Spektra Edge II rotary machine)
-6. Click "Add Expense" button
+The tool has two entry modes. The **Standard Expense** tab records a single line item with a date, category, amount, optional supplier/payee, optional receipt reference, and optional description. The **Travel & Mileage Log** tab records a trip with a date, purpose/destination, distance, a user-specified vehicle rate per unit, optional tolls/parking/transit, and an optional receipt or ticket reference. It calculates the travel total live as `(distance × rate) + extra` and stores the result as a single ledger entry.
 
-##### H3: Step 2, Review Your Summary
-- Total Recorded Expenses card shows running total of all logged expenses
-- Entries Logged card shows count of individual expenses
-- Top Category card identifies your highest spending category
+Everything you enter is saved to your browser's `localStorage` under the keys `poli-tax-tracker`, `poli-tax-categories`, and `poli-tax-currency`. No records or financial figures are transmitted to any remote server.
 
-##### H3: Step 3, View Category Breakdown
-- "By Category" section shows each category with total amount
-- Visual bars indicate proportional spending compared to highest category
+### A record-keeping tool, not tax advice
 
-##### H3: Step 4, Manage Your Log
-- Scroll through expense table to review all entries
-- Delete individual entries using the × button (with confirmation)
-- Use "Clear All" to reset all data (requires confirmation)
+The tool performs mathematical tabulation only. It does not determine or verify deductibility, does not compute tax liability, and does not provide tax, legal, or financial advice. Both an on-page notice and the footer disclaimer state this explicitly, and the printed summary includes a signature and date line for the artist or studio.
 
-##### H3: Step 5, Export for Tax
-- Click "Export CSV" to download tax-deductions.csv
-- File contains headers: Date, Category, Amount, Supplier, Description
-- Ready to import into spreadsheet software or share with accountant
+### Everything stays in your browser
 
-## Use Case Examples
+Because storage is local, your expense records persist between visits on the same browser and device. There is no account, no login, and no upload. Clearing your browser data or using a different device will not carry your records across.
 
-### Example 1: Equipment Purchase
-- **Date:** 2024-03-15
-- **Category:** Equipment & Machines
-- **Amount:** £895.00
-- **Supplier:** FK Irons
-- **Description:** Spektra Edge II rotary tattoo machine
+---
 
-### Example 2: Studio Overhead
-- **Date:** 2024-03-01
-- **Category:** Studio / Booth Rent
-- **Amount:** £450.00
-- **Supplier:** Urban Ink Studio
-- **Description:** Monthly booth rental March 2024
+## Who Should Use This Tool
 
-### Example 3: Consumables and PPE
-- **Date:** 2024-03-10
-- **Category:** Sterilisation & PPE
-- **Amount:** £67.50
-- **Supplier:** Medical Supplies UK
-- **Description:** Box of nitrile gloves, sterilisation pouches, green soap
+- **Self-employed tattoo artists** who need an orderly running record of equipment, supplies, studio rent, insurance, and software costs across a tax year.
+- **Body piercers** tracking consumables, jewellery stock, sterilisation and PPE, and professional licences in categories an accountant can follow.
+- **Studio owners and booth renters** who want to separate studio rent, utilities, marketing, and travel from day-to-day supply spending.
+- **Artists working guest spots or conventions** who need a travel and mileage log with purpose, distance, rate, and tolls recorded per trip.
+- **Anyone preparing a self-assessment or year-end handover** who wants aggregated category totals and a full transaction log as CSV rather than a shoebox of receipts.
+
+---
+
+## How to Use the Tattoo Artist Tax Deduction Tracker
+
+### Step 1 - Set your tax year, currency, and language
+
+In the top toolbar, choose a **Tax / Calendar Year** from the dropdown. It lists "All Recorded Years" plus every year found in your entries, and always includes the current year. Next to it, pick a **Currency**: `£` (GBP), `$` (USD/CAD/AUD), `€` (EUR), `CHF` (Swiss Franc), `kr` (SEK/NOK/DKK), or `¥` (JPY). Changing currency updates all totals, the form's currency symbol, and the chart immediately. The **Language** dropdown switches the interface between English, French, Italian, German, Spanish, Dutch, and Portuguese.
+
+### Step 2 - Log a standard expense
+
+On the **Standard Expense** tab:
+
+1. **Date**: defaults to today's local date.
+2. **Category**: pick from your category list.
+3. **Amount**: enter the cost. It must be greater than 0.
+4. **Supplier / Payee** (optional): for example a wholesaler name.
+5. **Receipt Reference** (optional): where the receipt is kept, such as an envelope number, binder, or email reference.
+6. **Description / Notes** (optional): item details.
+7. Click **Add Expense**.
+
+Date, category, and amount are required. After saving, the amount, supplier, receipt reference, and description fields clear, and the date stays on today.
+
+### Step 3 - Log travel and mileage
+
+Switch to the **Travel & Mileage Log** tab:
+
+1. **Trip Date**: defaults to today.
+2. **Trip Purpose / Destination**: for example a guest spot or a supply run.
+3. **Distance (Miles or Km)**: the distance travelled.
+4. **Vehicle Rate per Unit**: your own rate; the tool does not supply a statutory rate.
+5. **Tolls / Parking / Transit** (optional).
+6. **Receipt / Ticket Reference** (optional).
+7. Watch the **Calculated Travel Deduction Total** update as you type.
+8. Click **Log Travel & Mileage**.
+
+The entry is saved under a travel category if one exists in your list (matched on the words "travel" or "mileage"), otherwise the first category. The description is auto-built in the format `Trip: {purpose} | Distance: {dist} @ {rate}/unit | Tolls/Parking: {extra}`.
+
+### Step 4 - Review the annual summary cards
+
+Four cards sit above the entry form and update with your year filter:
+
+- **Total Recorded Expenses**: the sum of all amounts in the selected period.
+- **Entries Logged**: the count of recorded items.
+- **Travel & Mileage**: the total of entries whose category contains "travel" or "mileage". The subtext shows recorded distance when mileage was logged, otherwise it reads "Expenses & fares".
+- **Top Category**: your largest category by amount, with its percentage share.
+
+### Step 5 - Read the annual category summary and chart
+
+The **Annual Category Summary** section aggregates every entry by category, sorted by amount, and shows entries count, total amount, and share of total, with a totals row at the foot. Above the table, an inline SVG bar chart renders each category with its amount and percentage. The chart uses a hatched pattern overlay for high-contrast printing and accessibility, and shows a "no entries" message when the period is empty.
+
+### Step 6 - Search and manage the running expense log
+
+The **Running Expense Log** lists entries in reverse chronological order with date, category, amount, supplier, receipt reference, and description. The search box filters across supplier, description, category, and receipt reference. The count label updates to match. Each row has a delete button, and **Clear All** removes every record after a confirmation prompt.
+
+### Step 7 - Customise your expense categories
+
+Click **Categories** in the toolbar to open the category editor. You can:
+
+- **Add** a new category by typing a name and clicking Add (or pressing Enter).
+- **Rename** any category; duplicate names are rejected.
+- **Delete** a category, provided at least one remains. Existing records keep the old category name.
+- **Reset to Defaults** to restore the standard studio categories.
+
+The defaults are: Equipment & Machines; Supplies (inks, needles, gloves, jewelry); Studio / Booth Rent; Sterilisation, PPE & Waste Disposal; Apprenticeship & Education; Professional Licences & Memberships; Insurance; Software, POS & Subscriptions; Marketing, Website & Advertising; Travel & Mileage; Studio Utilities & Upkeep; Other Business Expenses.
+
+### Step 8 - Export CSV or print for your accountant
+
+- **Export Summary CSV** downloads `tax-category-summary-[year].csv` with columns Year, Category, Entries_Count, Total_Amount, Percent_Of_Total, plus a TOTAL row.
+- **Export Full Log (CSV)** downloads `tax-deductions-[year].csv` with columns Date, Category, Amount, Supplier, Receipt_Reference, Description.
+- **Print Summary** opens the browser print dialog. Print styling hides the interface controls and outputs a summary sheet with the period, generation date, totals, category breakdown, and a signature/date line.
+
+Both exports respect the selected year filter and use `all` in the filename when "All Recorded Years" is active. If there is nothing to export, the tool alerts you instead of downloading an empty file.
+
+---
+
+## Fields and Outputs Explained
+
+### Standard expense fields
+
+| Field | Required | Notes |
+|---|---|---|
+| Date | Yes | Defaults to today's local date |
+| Category | Yes | From your customisable list |
+| Amount | Yes | Must be greater than 0 |
+| Supplier / Payee | No | Merchant or provider |
+| Receipt Reference | No | Where the receipt is filed |
+| Description / Notes | No | Item details |
+
+### Travel and mileage fields
+
+| Field | Required | Notes |
+|---|---|---|
+| Trip Date | Yes | Defaults to today |
+| Trip Purpose / Destination | Yes (or distance/cost) | Business reason for travel |
+| Distance (Miles or Km) | Yes (or purpose/cost) | Used in the calculation |
+| Vehicle Rate per Unit | No | User-specified rate |
+| Tolls / Parking / Transit | No | Added to the total |
+| Receipt / Ticket Reference | No | Ticket or odometer note |
+
+The calculated total is `(distance × rate) + extra` and must be greater than 0 to save.
+
+### Summary cards
+
+Total Recorded Expenses, Entries Logged, Travel & Mileage (with distance subtext when mileage exists), and Top Category with percentage share.
+
+### Annual category summary table and SVG chart
+
+The table lists Category, Entries, Total Amount, and Share of Total, sorted by amount descending, with a totals footer. The SVG chart mirrors the same data as horizontal bars with amount and percentage labels.
+
+### CSV exports
+
+Two files: an aggregated category summary and a full transaction log, both filtered to the selected year and both quoted and escaped for safe import into spreadsheet software.
+
+---
+
+## Use-Case Examples
+
+### Example 1 - A self-employed artist logging monthly supplies
+
+An artist buys a box of 50 cartridges and a set of rotary needles from a wholesaler. They open the **Standard Expense** tab, leave the date on today, select the **Supplies (inks, needles, gloves, jewelry)** category, enter the amount, type the wholesaler name in **Supplier / Payee**, and write `Envelope #2` in **Receipt Reference** with a short note in **Description / Notes**. Clicking **Add Expense** drops it into the running log, where it counts toward Total Recorded Expenses and the Supplies category total.
+
+### Example 2 - A guest spot trip with mileage and parking
+
+An artist travels to a guest spot. On the **Travel & Mileage Log** tab they set the trip date, enter `Guest spot in Leeds` as the purpose, `45` as the distance, their own per-unit rate, and a parking cost in **Tolls / Parking / Transit**. The **Calculated Travel Deduction Total** updates live. They add `Parking ticket` as the receipt reference and click **Log Travel & Mileage**. The entry lands in the Travel & Mileage category, feeds the Travel & Mileage summary card, and adds 45 to the recorded distance subtext.
+
+### Example 3 - A piercer preparing a year-end summary for an accountant
+
+At year end, a piercer selects the relevant tax year in the **Tax / Calendar Year** dropdown. The summary cards and Annual Category Summary table recalculate for that year only. They click **Export Summary CSV** to send aggregated category totals and percentages, then **Export Full Log (CSV)** so the accountant can see every transaction with its receipt reference and description. If a paper copy is needed, **Print Summary** produces a clean sheet with the period, generation date, and a signature line.
+
+---
 
 ## Frequently Asked Questions (FAQ)
 
-### Q1: Does this tool save my data online?
-No. All expense data is stored in your browser's localStorage. Nothing is sent to any server. Clearing your browser data will remove your entries.
+**1. Is the Tattoo Artist Tax Deduction Tracker free?**
+Yes. It is provided free by Poli International and runs entirely in your browser.
 
-### Q2: Can I export my expenses for my accountant?
-Yes. Click "Export CSV" to download a tax-deductions.csv file with all your entries. The file includes Date, Category, Amount, Supplier, and Description columns.
+**2. Does the tool tell me what I can and cannot deduct?**
+No. It is strictly a record-keeping tool. It performs mathematical tabulation only and does not determine or verify deductibility. Consult a qualified accountant or tax professional before filing.
 
-### Q3: What expense categories are available?
-The tool includes 12 categories: Equipment & Machines, Supplies (inks, needles, gloves), Studio/Booth Rent, Apprenticeship/Training, Professional Membership, Marketing & Advertising, Software & Subscriptions, Travel (studio-related), Insurance, Sterilisation & PPE, Photography & Promotion, and Other business expense.
+**3. Where is my data stored?**
+In your browser's `localStorage`, under the keys `poli-tax-tracker`, `poli-tax-categories`, and `poli-tax-currency`. Nothing is sent to a remote server.
 
-### Q4: Can I add custom categories?
-No. The tool uses a fixed set of 12 categories designed for tattoo and piercing business expenses. Use "Other business expense" for items that don't fit elsewhere.
+**4. Which currencies and languages are supported?**
+Currencies: `£` (GBP), `$` (USD/CAD/AUD), `€` (EUR), `CHF` (Swiss Franc), `kr` (SEK/NOK/DKK), and `¥` (JPY). Languages: English, French, Italian, German, Spanish, Dutch, and Portuguese.
 
-### Q5: Is this tool approved by tax authority?
-No. This is a record-keeping tool only. Tax deductibility depends on your jurisdiction, business structure, and specific circumstances. Always consult a qualified tax professional.
+**5. How is the travel and mileage total calculated?**
+As `(distance × rate per unit) + tolls/parking/transit`. The rate is user-specified; the tool does not apply any statutory mileage rate.
 
-### Q6: How do I delete a single expense?
-Each row in the expense table has a × button on the right. Click it and confirm the deletion to remove that specific entry.
+**6. Can I add my own expense categories?**
+Yes. Open the **Categories** editor to add, rename, or delete categories, or reset to the standard defaults. At least one category must remain.
 
-### Q7: What happens if I clear my browser cache?
-Your expense data may be lost. The tool uses localStorage which can be cleared when you clear browsing data. Export your CSV regularly as a backup.
+**7. What happens to existing entries if I rename or delete a category?**
+Existing records keep the category name they were saved with. The change affects the dropdown and future entries.
 
-### Q8: Can I edit an expense after adding it?
-No. The current version does not support editing. Delete the incorrect entry and add a new one with the correct details.
+**8. What files do the CSV exports produce?**
+`tax-category-summary-[year].csv` for aggregated category totals and percentages, and `tax-deductions-[year].csv` for the full transaction log. Both use `all` in the filename when "All Recorded Years" is selected.
 
-### Q9: What currency does the tool use?
-The tool uses British Pounds (£). The amount field accepts decimal values (e.g., 45.00).
+**9. Can I print a summary for my accountant?**
+Yes. **Print Summary** applies print formatting that hides the interface controls and outputs totals, the category breakdown, the period, the generation date, and a signature and date line.
 
-### Q10: Is there a limit to how many expenses I can log?
-No. The tool stores all entries in your browser's localStorage, which has a generous storage limit (typically 5-10MB). For most users, this allows thousands of entries.
+**10. Does the year filter affect the exports and the summary?**
+Yes. The summary cards, category table, SVG chart, running log, and both CSV exports all respect the selected tax year.
+
+---
 
 ## Structured Data
 
-```json
+```html
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Tattoo Artist Tax Deduction Tracker",
-  "description": "Log and categorise business expenses for tattoo artists and piercing studios. Track costs by category and export a CSV for tax.",
-  "applicationCategory": "BusinessApplication",
-  "operatingSystem": "All",
-  "browserRequirements": "Requires JavaScript",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "GBP"
-  },
-  "url": "https://poliinternational.com/tools/tax-deduction-tracker/"
-}
-```
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  "@graph": [
     {
-      "@type": "Question",
-      "name": "Does this tool save my data online?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. All expense data is stored in your browser's localStorage. Nothing is sent to any server. Clearing your browser data will remove your entries."
-      }
+      "@type": "SoftwareApplication",
+      "name": "Tattoo Artist Tax Deduction Tracker",
+      "url": "https://poliinternational.com/tools/tax-deduction-tracker/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Track tattoo artist tax deductions and tattooist expenses as you spend: receipt refs, mileage, categories, year summary and CSV export for your accountant.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "GBP"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Poli International",
+        "url": "https://poliinternational.com/"
+      },
+      "featureList": [
+        "Standard expense entry with date, category, amount, supplier, receipt reference and notes",
+        "Travel and mileage log with distance, user-specified rate, tolls and parking",
+        "Annual summary cards for total expenses, entries, travel and top category",
+        "Annual category summary table and inline SVG chart",
+        "Customisable expense categories",
+        "Year filter and currency selection",
+        "CSV export of category summary and full transaction log",
+        "Print-ready accountant summary"
+      ]
     },
     {
-      "@type": "Question",
-      "name": "Can I export my expenses for my accountant?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Click Export CSV to download a tax-deductions.csv file with all your entries. The file includes Date, Category, Amount, Supplier, and Description columns."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What expense categories are available?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The tool includes 12 categories: Equipment & Machines, Supplies (inks, needles, gloves), Studio/Booth Rent, Apprenticeship/Training, Professional Membership, Marketing & Advertising, Software & Subscriptions, Travel (studio-related), Insurance, Sterilisation & PPE, Photography & Promotion, and Other business expense."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I add custom categories?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The tool uses a fixed set of 12 categories designed for tattoo and piercing business expenses. Use Other business expense for items that don't fit elsewhere."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is this tool approved by tax authority?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. This is a record-keeping tool only. Tax deductibility depends on your jurisdiction, business structure, and specific circumstances. Always consult a qualified tax professional."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do I delete a single expense?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Each row in the expense table has a × button on the right. Click it and confirm the deletion to remove that specific entry."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I clear my browser cache?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Your expense data may be lost. The tool uses localStorage which can be cleared when you clear browsing data. Export your CSV regularly as a backup."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can I edit an expense after adding it?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "No. The current version does not support editing. Delete the incorrect entry and add a new one with the correct details."
-      }
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is the Tattoo Artist Tax Deduction Tracker free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. It is provided free by Poli International and runs entirely in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the tool tell me what I can and cannot deduct?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It is strictly a record-keeping tool. It performs mathematical tabulation only and does not determine or verify deductibility. Consult a qualified accountant or tax professional before filing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is my data stored?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In your browser's localStorage, under the keys poli-tax-tracker, poli-tax-categories, and poli-tax-currency. Nothing is sent to a remote server."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which currencies and languages are supported?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Currencies: GBP, USD/CAD/AUD, EUR, CHF, SEK/NOK/DKK, and JPY. Languages: English, French, Italian, German, Spanish, Dutch, and Portuguese."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is the travel and mileage total calculated?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As (distance multiplied by rate per unit) plus tolls, parking and transit. The rate is user-specified; the tool does not apply any statutory mileage rate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I add my own expense categories?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Open the Categories editor to add, rename, or delete categories, or reset to the standard defaults. At least one category must remain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to existing entries if I rename or delete a category?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Existing records keep the category name they were saved with. The change affects the dropdown and future entries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What files do the CSV exports produce?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "tax-category-summary-[year].csv for aggregated category totals and percentages, and tax-deductions-[year].csv for the full transaction log. Both use 'all' in the filename when All Recorded Years is selected."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I print a summary for my accountant?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Print Summary applies print formatting that hides the interface controls and outputs totals, the category breakdown, the period, the generation date, and a signature and date line."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the year filter affect the exports and the summary?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The summary cards, category table, SVG chart, running log, and both CSV exports all respect the selected tax year."
+          }
+        }
+      ]
     }
   ]
 }
+</script>
 ```
+
+---
 
 ## Internal Linking Suggestions
 
-### Poli Wiki Articles
-- **Tattoo Artist Tax Deductions: Complete Guide**, Link to this tool as the practical tracking companion
-- **Setting Up Your Tattoo Studio Business Finances**, Reference the expense categories in this tool
-- **Tattoo Equipment Depreciation and Tax Write-Offs**, Connect to the Equipment & Machines category
-- **Tattoo Artist Insurance: Types and Costs**, Link to the Insurance category in the tracker
-- **Studio Rent vs Booth Rent: Tax Implications**, Reference the Studio/Booth Rent category
+Link out from this guide to related Poli International resources that support the same audience and subject area:
 
-### Blog Post Ideas
-- "10 Tax Deductible Expenses Every Tattoo Artist Forgets"
-- "How to Prepare Your Tattoo Business for tax return"
-- "Tattoo Apprentice Tax Guide: What You Can and Can't Claim"
-- "Digital Record Keeping for Tattoo Artists: Why Spreadsheets Aren't Enough"
-
-### Cross-Tool Links
-- Link from the Tax Deduction Tracker to any Poli business planning or financial tools
-- Add contextual links within blog posts directing readers to "try our free Tax Deduction Tracker"
+- **Booth Rent Calculator** - for artists comparing fixed chair rent against percentage commission splits, a natural companion when categorising Studio / Booth Rent expenses.
+- **Equipment ROI Calculator** - for planning machine and autoclave purchases that later appear under Equipment & Machines in this tracker.
+- **Studio Pricing Benchmark** - for setting hourly rates and minimum charges so income planning sits alongside expense tracking.
+- **Wiki or blog topics to target for supporting content:**
+  - A guide to self-employed tattoo artist expense categories and what accountants typically expect to see.
+  - How to keep receipt references and filing systems that survive a tax review.
+  - Mileage and travel record-keeping basics for artists working guest spots and conventions.
+  - Preparing a year-end expense pack: what to export, print, and hand to your accountant.
+  - Choosing a tax year and currency setup when you work across borders.
